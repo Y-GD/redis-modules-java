@@ -18,6 +18,7 @@
         <module>redisjson</module>
         <module>redisgraph</module>
         <module>commons</module>
+        <module>redisMros</module>
     </modules>
 
     <name>Redis-Modules-Java</name>
