@@ -37,4 +37,16 @@ public class MrosInfo {
     public Long getBytes() {
         return bytes;
     }
+
+
+    @Override
+    public String toString() {
+        return "MrosInfo{" +
+                "capacity=" + capacity +
+                ", size=" + size +
+                ", layerCnt=" + layerCnt +
+                ", layer_size=" + layer_size +
+                ", bytes=" + bytes +
+                '}';
+    }
 }

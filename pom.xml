@@ -162,6 +162,7 @@
             <artifactId>redisson</artifactId>
             <version>${redisson.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>

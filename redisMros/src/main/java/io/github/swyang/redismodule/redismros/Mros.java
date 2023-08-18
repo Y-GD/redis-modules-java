@@ -1,6 +1,5 @@
 package io.github.swyang.redismodule.redismros;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import io.github.swyang.redismodule.redismros.model.ChunksData;
 import io.github.swyang.redismodule.redismros.model.InsertArgs;
 import io.github.swyang.redismodule.redismros.model.MrosInfo;
@@ -77,6 +76,7 @@ public class Mros extends RedissonObject {
                 getName(),
                 codec,
                 RedisCommands.MROS_ADD,
+                getName(),
                 item
         );
     }
